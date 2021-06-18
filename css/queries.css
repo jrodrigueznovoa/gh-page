@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1200px){
+    .header-tex-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .fila { padding: 0 2%;}
+}
+
+@media only screen and (max-width: 1023px){
+
+    body { font-size: 18px;}
+    .p-servicio {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .cont-form { width: 80%;}
+
+}
+
+@media only screen and (max-width: 767px){
+
+    body {font-size: 16px;}
+
+    .header-tex-box {
+        width: 100%;
+        padding: 0 4%;
+    }
+    .portafolio {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 3% 0 3%;
+    }
+    .form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .section-portafolio{
+        margin: 0;
+    }
+
+    .main-nav {display: none;}
+
+    h1 { font-size: 180%;}
+    h2 {font-size: 150%;}
+
+    .device {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .span-1-of-4 {
+		width: 100%; 
+	}
+
+    .span-1-of-3 {
+		width: 100%;
+	}
+
+    .span-1-of-2 {
+        width: 100%;
+    }
+    .cont-form { width: 100%;}
+
+    .portafolio {
+        margin-left: 0;
+    }
+
+}
